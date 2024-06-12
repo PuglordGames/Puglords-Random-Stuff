@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "puglords_random_stuff:block/warper_bottom",
+    "up": "puglords_random_stuff:block/warper_top",
+    "north": "puglords_random_stuff:block/warper_side",
+    "east": "puglords_random_stuff:block/warper_side",
+    "south": "puglords_random_stuff:block/warper_side",
+    "west": "puglords_random_stuff:block/warper_side",
+    "particle": "puglords_random_stuff:block/warper_bottom"
+  },
+  "render_type": "solid"
+}

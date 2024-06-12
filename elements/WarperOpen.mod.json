@@ -1,0 +1,15 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Warper Open",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "WarperOpenOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "WarperOpenOnKeyReleased"
+    }
+  }
+}

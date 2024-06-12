@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:enderite_boots",
+    "count": 1
+  }
+}

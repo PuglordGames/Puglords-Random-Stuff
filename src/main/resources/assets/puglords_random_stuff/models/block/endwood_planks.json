@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "puglords_random_stuff:block/endwood_planks",
+    "up": "puglords_random_stuff:block/endwood_planks",
+    "north": "puglords_random_stuff:block/endwood_planks",
+    "east": "puglords_random_stuff:block/endwood_planks",
+    "south": "puglords_random_stuff:block/endwood_planks",
+    "west": "puglords_random_stuff:block/endwood_planks",
+    "particle": "puglords_random_stuff:block/endwood_planks"
+  },
+  "render_type": "solid"
+}

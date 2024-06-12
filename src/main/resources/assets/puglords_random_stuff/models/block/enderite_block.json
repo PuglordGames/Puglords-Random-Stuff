@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "puglords_random_stuff:block/enderite_block",
+    "up": "puglords_random_stuff:block/enderite_block",
+    "north": "puglords_random_stuff:block/enderite_block",
+    "east": "puglords_random_stuff:block/enderite_block",
+    "south": "puglords_random_stuff:block/enderite_block",
+    "west": "puglords_random_stuff:block/enderite_block",
+    "particle": "puglords_random_stuff:block/enderite_block"
+  },
+  "render_type": "solid"
+}

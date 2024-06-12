@@ -1,0 +1,11 @@
+{
+  "double_jump": {
+    "subtitle": "subtitles.double_jump",
+    "sounds": [
+      {
+        "name": "puglords_random_stuff:double_jump",
+        "stream": false
+      }
+    ]
+  }
+}

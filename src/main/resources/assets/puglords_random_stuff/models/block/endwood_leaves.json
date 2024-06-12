@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "puglords_random_stuff:block/endwood_leaves",
+    "up": "puglords_random_stuff:block/endwood_leaves",
+    "north": "puglords_random_stuff:block/endwood_leaves",
+    "east": "puglords_random_stuff:block/endwood_leaves",
+    "south": "puglords_random_stuff:block/endwood_leaves",
+    "west": "puglords_random_stuff:block/endwood_leaves",
+    "particle": "puglords_random_stuff:block/endwood_leaves"
+  },
+  "render_type": "translucent"
+}

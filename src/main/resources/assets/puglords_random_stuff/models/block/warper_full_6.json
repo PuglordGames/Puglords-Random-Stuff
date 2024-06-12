@@ -1,0 +1,12 @@
+{
+  "parent": "puglords_random_stuff:custom/warper_full",
+  "textures": {
+    "all": "puglords_random_stuff:block/warper_bottom",
+    "particle": "puglords_random_stuff:block/warper_bottom",
+    "0": "puglords_random_stuff:block/warper_bottom",
+    "1": "puglords_random_stuff:block/warper_side",
+    "2": "puglords_random_stuff:block/warper_top",
+    "3": "puglords_random_stuff:block/warper_eye"
+  },
+  "render_type": "solid"
+}

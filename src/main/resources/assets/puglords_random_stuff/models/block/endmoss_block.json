@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "puglords_random_stuff:block/end_stone",
+    "up": "puglords_random_stuff:block/endstone_moss_top",
+    "north": "puglords_random_stuff:block/endstone_moss_side",
+    "east": "puglords_random_stuff:block/endstone_moss_side",
+    "south": "puglords_random_stuff:block/endstone_moss_side",
+    "west": "puglords_random_stuff:block/endstone_moss_side",
+    "particle": "puglords_random_stuff:block/end_stone"
+  },
+  "render_type": "solid"
+}

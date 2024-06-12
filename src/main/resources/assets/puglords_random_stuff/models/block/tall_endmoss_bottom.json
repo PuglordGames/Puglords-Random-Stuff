@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "puglords_random_stuff:block/tall_endmoss_bottom",
+    "particle": "puglords_random_stuff:block/tall_endmoss_top"
+  },
+  "render_type": "cutout"
+}

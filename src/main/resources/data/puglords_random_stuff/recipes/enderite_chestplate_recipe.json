@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:enderite_ingot"
+    },
+    "b": {
+      "item": "puglords_random_stuff:endstone_scraps"
+    },
+    "c": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:enderite_chestplate",
+    "count": 1
+  }
+}

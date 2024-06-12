@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:enderite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 189,
+    "height": 132,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_configure_warper",
+          "text": {
+            "fixedValue": "Select which ID this warper is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1",
+          "text": "1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID1"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 159,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_2",
+          "text": "2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID2"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 195,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_3",
+          "text": "3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID3"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_4",
+          "text": "4",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID4"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 159,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_5",
+          "text": "5",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID5"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 195,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_6",
+          "text": "6",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WarperID6"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 231,
+          "y": 143
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

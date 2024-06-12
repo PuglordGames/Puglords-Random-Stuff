@@ -1,0 +1,2835 @@
+{
+  "mod_elements": [
+    {
+      "name": "EnhancedNetherite",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_helmet.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnhancedNetheriteItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_boots.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_chestplate.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/Enhanced_Netherite_ToolsPickaxeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/Enhanced_Netherite_ToolsAxeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_sword.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/Enhanced_Netherite_ToolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/Enhanced_Netherite_ToolsShovelItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/Enhanced_Netherite_ToolsHoeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enhanced_netherite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enhanced_netherite_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enhanced_netherite_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enhanced_netherite_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enhanced_netherite_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced_Netherite_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enhanced_netherite_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteToolsPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnhancedNetheriteToolsPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/JumpKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpKey",
+      "type": "keybind",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/network/JumpKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "RestoreJump",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restore_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/RestoreJumpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteToolsSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnhancedNetheriteToolsSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jump",
+      "type": "overlay",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/screens/JumpOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "JumpDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/JumpDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpIndicator3",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_indicator_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/JumpIndicator3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpIndicator2",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_indicator_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/JumpIndicator2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpIndicator1",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_indicator_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/JumpIndicator1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteToolsShovelBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_shovel_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnhancedNetheriteToolsShovelBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteToolsAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_tools_axe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnhancedNetheriteToolsAxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteAxeCanBreak",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_axe_can_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/tags/blocks/enhanced_netherite_axe_can_break.json"
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheritePickaxeCanBreak",
+      "type": "tag",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_pickaxe_can_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/tags/blocks/enhanced_netherite_pickaxe_can_break.json"
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteShovelCanBreak",
+      "type": "tag",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_shovel_can_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/tags/blocks/enhanced_netherite_shovel_can_break.json"
+        ]
+      }
+    },
+    {
+      "name": "Meter14",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter13",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter12",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter11",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter10",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter9",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter8",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter7",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter6",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter5",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter4",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter3",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter2",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter1",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meter0",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meter_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Meter0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetOnKeyPressed",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/ResetOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reset",
+      "type": "keybind",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/network/ResetMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "EnhancedNetheriteBootsTickEvent",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_netherite_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnhancedNetheriteBootsTickEventProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WarperBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Warper",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperID2BlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_2_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID2BlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WarperOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperConfigure",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_configure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/network/WarperConfigureButtonMessage.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/gui/WarperConfigureScreen.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/world/inventory/WarperConfigureMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "WarperTeleport",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperTeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/warper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFullBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperFullOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFullOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warper1",
+      "type": "livingentity",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper1Renderer.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper1Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper2",
+      "type": "livingentity",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper2Renderer.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper3",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper3Renderer.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper3Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper4",
+      "type": "livingentity",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper4Renderer.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper4Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper5",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper5Entity.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper5Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper6",
+      "type": "livingentity",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/entity/Warper6Entity.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/renderer/Warper6Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Warper2Teleport",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_2_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Warper2TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warper3Teleport",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_3_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Warper3TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warper4Teleport",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_4_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Warper4TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warper5Teleport",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_5_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Warper5TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warper6Teleport",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_6_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/Warper6TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderite",
+      "type": "armor",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_chestplate.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_leggings.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_boots.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_helmet.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderitePickaxeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteAxeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_sword.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteShovelItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteHoeItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteIngot",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_ingot.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EnderiteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneFragments",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_fragments",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EndstoneFragmentsItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endstone_fragments.json"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneScraps",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_scraps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/endstone_scraps.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EndstoneScrapsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawEnderite",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_enderite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/raw_enderite.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/RawEnderiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneRod",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/item/EndstoneRodItem.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endstone_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/blockstates/enderite_ore.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/enderite_ore.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/placed_feature/enderite_ore.json",
+          "src/main/resources/data/puglords_random_stuff/forge/biome_modifier/enderite_ore_biome_modifier.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/configured_feature/enderite_ore.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EnderiteOreBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteIngotRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneScrapsrecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_scrapsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/endstone_scrapsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstone",
+      "type": "loottable",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/end_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBootsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteAxeAltRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_alt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_axe_alt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneRodRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/endstone_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnderiteChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperOpenOnKeyPressed",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_open_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperOpenOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperOpenOnKeyReleased",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_open_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperOpenOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperOpen",
+      "type": "keybind",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/network/WarperOpenMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBootsTickEvent",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/EnderiteBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperIDConfigure",
+      "type": "gui",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_configure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/world/inventory/WarperIDConfigureMenu.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/client/gui/WarperIDConfigureScreen.java",
+          "src/main/java/net/mcreator/puglordsrandomstuff/network/WarperIDConfigureButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull2",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full_2.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full_2.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full_2.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFull2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull3",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFull3Block.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full_3.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full_3.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full_3.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull4",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full_4.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFull4Block.java",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full_4.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full_4.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull5",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full_5.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full_5.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFull5Block.java",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full_5.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperFull6",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/blockstates/warper_full_6.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/warper_full_6.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/WarperFull6Block.java",
+          "src/main/resources/assets/puglords_random_stuff/models/block/warper_full_6.json"
+        ]
+      }
+    },
+    {
+      "name": "WarperID1",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperID2",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperID3",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperID4",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperID5",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperID6",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_id_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperID6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFullBlockAdded",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFullBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull2BlockAdded",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_2_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull2BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull3BlockAdded",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_3_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull3BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull4BlockAdded",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_4_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull4BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull5BlockAdded",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_5_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull5BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull6BlockAdded",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_6_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull6BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFullBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFullBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull2BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_2_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull2BlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull3BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_3_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull3BlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull4BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_4_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull4BlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull5BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_5_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull5BlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarperFull6BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warper_full_6_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/procedures/WarperFull6BlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlock",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EnderiteBlockBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/enderite_block.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/enderite_block.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/enderite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlockrecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_blockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/enderite_blockrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndwoodLog",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EndwoodLogBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/endwood_log.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/endwood_log.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "EndwoodLeaves",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/block/endwood_leaves.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endwood_leaves.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/endwood_leaves.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EndwoodLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EndwoodPlanks",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EndwoodPlanksBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/block/endwood_planks.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endwood_planks.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/endwood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "EndwoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/endwood_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndwoodCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_crafting_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/recipes/endwood_crafting_table_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndPlains",
+      "type": "biome",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/worldgen/placed_feature/end_plains_tree.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/biome/end_plains.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/configured_feature/end_plains_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Endmoss",
+      "type": "plant",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endmoss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EndmossBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endmoss.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/endmoss.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/configured_feature/endmoss.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/endmoss.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/placed_feature/endmoss.json",
+          "src/main/resources/data/puglords_random_stuff/forge/biome_modifier/endmoss_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EndmossBlock",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endmoss_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/EndmossBlockBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/item/endmoss_block.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/endmoss_block.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/endmoss_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirt",
+      "type": "tag",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "TallEndmoss",
+      "type": "plant",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_endmoss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/puglords_random_stuff/models/block/tall_endmoss.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/tall_endmoss.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/TallEndmossBlock.java",
+          "src/main/resources/assets/puglords_random_stuff/models/block/tall_endmoss_bottom.json",
+          "src/main/resources/data/puglords_random_stuff/forge/biome_modifier/tall_endmoss_biome_modifier.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/placed_feature/tall_endmoss.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/configured_feature/tall_endmoss.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/tall_endmoss.json"
+        ]
+      }
+    },
+    {
+      "name": "Glowflower",
+      "type": "plant",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/puglords_random_stuff/forge/biome_modifier/glowflower_biome_modifier.json",
+          "src/main/resources/assets/puglords_random_stuff/models/block/glowflower.json",
+          "src/main/java/net/mcreator/puglordsrandomstuff/block/GlowflowerBlock.java",
+          "src/main/resources/data/puglords_random_stuff/worldgen/configured_feature/glowflower.json",
+          "src/main/resources/data/puglords_random_stuff/worldgen/placed_feature/glowflower.json",
+          "src/main/resources/assets/puglords_random_stuff/models/item/glowflower.json",
+          "src/main/resources/assets/puglords_random_stuff/blockstates/glowflower.json"
+        ]
+      }
+    },
+    {
+      "name": "EndPlainsBiome",
+      "type": "endbiome",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_plains_biome",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "jumpvar",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "jumpnumber",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "jump_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "doublejumped",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper_id",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "warper1placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper2placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper3placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper4placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper5placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "warper6placed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "cpressed",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "player_can_jump",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "double_jump",
+      "files": [
+        "double_jump"
+      ],
+      "category": "player",
+      "subtitle": "Player double jumps"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.puglords_random_stuff.endmoss": "Endmoss",
+      "biome.puglords_random_stuff.end_plains": "End Plains",
+      "block.puglords_random_stuff.enderite_block": "Enderite Block",
+      "block.puglords_random_stuff.warper_full": "Warper Full",
+      "gui.puglords_random_stuff.warper_configure.button_warp": "Warp",
+      "block.puglords_random_stuff.endwood_log": "Endwood Log",
+      "gui.puglords_random_stuff.warper_configure.button_5": "5",
+      "gui.puglords_random_stuff.warper_configure.button_6": "6",
+      "block.puglords_random_stuff.glowflower": "Glowflower",
+      "item.puglords_random_stuff.raw_enderite": "Raw Enderite",
+      "gui.puglords_random_stuff.warper_configure.button_1": "1",
+      "gui.puglords_random_stuff.warper_configure.button_2": "2",
+      "key.puglords_random_stuff.warper_open": "Warper Open",
+      "gui.puglords_random_stuff.warper_configure.button_3": "3",
+      "item.puglords_random_stuff.enderite_shovel": "Enderite Shovel",
+      "gui.puglords_random_stuff.warper_configure.button_4": "4",
+      "item.puglords_random_stuff.enderite_pickaxe": "Enderite Pickaxe",
+      "item.puglords_random_stuff.enhanced_netherite_axe": "Enhanced Netherite Axe",
+      "item.puglords_random_stuff.enderite_sword": "Enderite Sword",
+      "item.puglords_random_stuff.enderite_ingot": "Enderite Ingot",
+      "item.puglords_random_stuff.enhanced_netherite_boots": "Enhanced Netherite Boots",
+      "item.puglords_random_stuff.endstone_rod": "Endstone Rod",
+      "item.puglords_random_stuff.enhanced_netherite_pickaxe": "Enhanced Netherite Pickaxe",
+      "gui.puglords_random_stuff.warper_configure.button_set_position": "Set Position",
+      "item.puglords_random_stuff.endstone_scraps": "Endstone Scraps",
+      "item.puglords_random_stuff.enderite_hoe": "Enderite Hoe",
+      "key.puglords_random_stuff.reset": "Reset",
+      "block.puglords_random_stuff.endwood_planks": "Endwood Planks",
+      "item.puglords_random_stuff.enderite_helmet": "Enderite Helmet",
+      "entity.puglords_random_stuff.warper_6": "Warper",
+      "entity.puglords_random_stuff.warper_4": "Warper",
+      "entity.puglords_random_stuff.warper_5": "Warper",
+      "item.puglords_random_stuff.endstone_fragments": "Endstone Fragments",
+      "item.puglords_random_stuff.enhanced_netherite_chestplate": "Enhanced Netherite Chestplate",
+      "entity.puglords_random_stuff.warper_2": "Warper",
+      "item.puglords_random_stuff.enhanced_netherite_shovel": "Enhanced Netherite Shovel",
+      "entity.puglords_random_stuff.warper_3": "Warper",
+      "entity.puglords_random_stuff.warper_1": "Warper",
+      "gui.puglords_random_stuff.warper_configure.label_configure_warper": "Select which warper to warp to.",
+      "item.puglords_random_stuff.enderite_leggings": "Enderite Leggings",
+      "item.puglords_random_stuff.enderite_chestplate": "Enderite Chestplate",
+      "gui.puglords_random_stuff.warper_id_configure.label_configure_warper": "Select which ID this warper is",
+      "block.puglords_random_stuff.warper": "Warper",
+      "item.puglords_random_stuff.enhanced_netherite_hoe": "Enhanced Netherite Hoe",
+      "gui.puglords_random_stuff.warper_id_configure.button_6": "6",
+      "gui.puglords_random_stuff.warper_id_configure.button_5": "5",
+      "item.puglords_random_stuff.enhanced_netherite_sword": "Enhanced Netherite Sword",
+      "block.puglords_random_stuff.enderite_ore": "Enderite Ore",
+      "item.puglords_random_stuff.enhanced_netherite_helmet": "Enhanced Netherite Helmet",
+      "gui.puglords_random_stuff.warper_id_configure.button_2": "2",
+      "gui.puglords_random_stuff.warper_id_configure.button_1": "1",
+      "gui.puglords_random_stuff.warper_id_configure.button_4": "4",
+      "gui.puglords_random_stuff.warper_id_configure.button_3": "3",
+      "item.puglords_random_stuff.enderite_axe": "Enderite Axe",
+      "block.puglords_random_stuff.warper_full_6": "Warper Full",
+      "item.puglords_random_stuff.enhanced_netherite_leggings": "Enhanced Netherite Leggings",
+      "block.puglords_random_stuff.warper_full_2": "Warper Full",
+      "block.puglords_random_stuff.warper_full_3": "Warper Full",
+      "block.puglords_random_stuff.warper_full_4": "Warper Full",
+      "block.puglords_random_stuff.warper_full_5": "Warper Full",
+      "subtitles.double_jump": "Player double jumps",
+      "block.puglords_random_stuff.endwood_leaves": "Endwood Leaves",
+      "key.puglords_random_stuff.jump_key": "Jump Key",
+      "subtitles.jump": "Player double jumps",
+      "item.puglords_random_stuff.enderite_boots": "Enderite Boots",
+      "block.puglords_random_stuff.endmoss_block": "Endmoss Block",
+      "block.puglords_random_stuff.tall_endmoss": "Endmoss"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "puglords_random_stuff",
+    "modName": "Puglord\u0027s Random Stuff",
+    "version": "1.0.0",
+    "author": "Puglord, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.puglordsrandomstuff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

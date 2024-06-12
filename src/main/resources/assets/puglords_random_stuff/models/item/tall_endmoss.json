@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "puglords_random_stuff:item/tall_endmoss_top"
+  }
+}

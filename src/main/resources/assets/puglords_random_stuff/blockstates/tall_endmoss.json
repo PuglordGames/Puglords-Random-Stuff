@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "puglords_random_stuff:block/tall_endmoss"
+    },
+    "half=lower": {
+      "model": "puglords_random_stuff:block/tall_endmoss_bottom"
+    }
+  }
+}

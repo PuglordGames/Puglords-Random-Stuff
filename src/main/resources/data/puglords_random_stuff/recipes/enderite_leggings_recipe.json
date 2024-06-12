@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:enderite_ingot"
+    },
+    "b": {
+      "item": "puglords_random_stuff:endstone_scraps"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:enderite_leggings",
+    "count": 1
+  }
+}

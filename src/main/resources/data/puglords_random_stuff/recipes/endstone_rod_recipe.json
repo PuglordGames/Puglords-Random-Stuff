@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:endstone_fragments"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:endstone_rod",
+    "count": 1
+  }
+}

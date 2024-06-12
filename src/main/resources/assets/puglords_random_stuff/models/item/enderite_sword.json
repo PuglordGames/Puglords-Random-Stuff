@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "puglords_random_stuff:item/enderite_sword"
+  }
+}

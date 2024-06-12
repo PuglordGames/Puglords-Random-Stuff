@@ -1,0 +1,265 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "jump_indicator_0.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER_RIGHT",
+          "x": 375,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jump_indicator_3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpIndicator3"
+          },
+          "anchorPoint": "CENTER_RIGHT",
+          "x": 375,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jump_indicator_2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpIndicator2"
+          },
+          "anchorPoint": "CENTER_RIGHT",
+          "x": 375,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jump_indicator_1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "JumpIndicator1"
+          },
+          "anchorPoint": "CENTER_RIGHT",
+          "x": 375,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter0"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter8"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter9"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter10"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter11"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter12"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter13"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "meter_14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Meter14"
+          },
+          "anchorPoint": "CENTER",
+          "x": 204,
+          "y": 125
+        }
+      }
+    ],
+    "baseTexture": "screen.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "JumpDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "puglords_random_stuff:end_plains",
+  "features": "puglords_random_stuff:endmoss",
+  "step": "vegetal_decoration"
+}

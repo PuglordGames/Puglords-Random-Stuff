@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "puglords_random_stuff:block/endwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "puglords_random_stuff:block/endwood_log"
+    },
+    "axis=z": {
+      "model": "puglords_random_stuff:block/endwood_log",
+      "x": 90
+    }
+  }
+}

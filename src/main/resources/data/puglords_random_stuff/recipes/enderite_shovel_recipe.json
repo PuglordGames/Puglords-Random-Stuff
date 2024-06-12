@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "puglords_random_stuff:enderite_ingot"
+    },
+    "b": {
+      "item": "puglords_random_stuff:endstone_rod"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:enderite_shovel",
+    "count": 1
+  }
+}

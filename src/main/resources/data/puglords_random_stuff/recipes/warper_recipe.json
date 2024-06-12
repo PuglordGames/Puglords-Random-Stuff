@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_stone"
+    },
+    "b": {
+      "item": "minecraft:end_crystal"
+    },
+    "c": {
+      "item": "minecraft:ender_eye"
+    },
+    "d": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "puglords_random_stuff:warper",
+    "count": 1
+  }
+}
